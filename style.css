@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#9e9711fc,#1a5042,#022152);
+}
+
+.player{
+    width:420px;
+    padding:35px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(20px);
+    border-radius:30px;
+    text-align:center;
+    box-shadow:0 8px 32px rgba(0,0,0,.2);
+}
+
+.player h1{
+    margin-bottom:20px;
+    font-size:42px;
+}
+
+#search{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    margin-bottom:20px;
+    outline:none;
+}
+
+#upload{
+    margin-bottom:20px;
+}
+
+#cover{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+#title{
+    margin-top:20px;
+    font-size:35px;
+}
+
+#artist{
+    color:#ffffff;
+    margin-top:10px;
+}
+
+#genre{
+    color:#fffdfd;
+    margin-top:10px;
+}
+
+#progress{
+    width:100%;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.time{
+    margin-top:15px;
+    color:#fff5f5;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:25px;
+}
+
+.controls button{
+    width:70px;
+    height:70px;
+    border:none;
+    border-radius:50%;
+    background:white;
+    font-size:25px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.controls button:hover{
+    transform:scale(1.1);
+}
+
+.volume-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:25px;
+}
+
+#volume{
+    width:180px;
+}
+
+#playlist{
+    margin-top:30px;
+    list-style:none;
+    max-height:180px;
+    overflow-y:auto;
+}
+
+#playlist li{
+    padding:15px;
+    margin:10px 0;
+    background:rgba(255, 255, 255, 0.759);
+    border-radius:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#playlist li:hover{
+    background:white;
+    transform:translateX(8px);
+}
+
+input[type="range"]{
+    accent-color:#7fa6ab;
+}
