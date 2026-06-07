@@ -1,12 +1,8 @@
 A modern and responsive Music Player built using HTML, CSS, and JavaScript.
 
-🔗 Live Demo
+🔗 Live Demo: https://raj-tanmay07.github.io/CodeAlpha_Music-Player/
 
-👉 Live Demo: https://raj-tanmay07.github.io/CodeAlpha_Music-Player/
-
-📂 GitHub Repository
-
-👉 GitHub Repository: https://github.com/raj-tanmay07/CodeAlpha_Music-Player.git
+📂 GitHub Repository: https://github.com/raj-tanmay07/CodeAlpha_Music-Player.git
 
 ## 🚀 Features
 
@@ -22,9 +18,9 @@ A modern and responsive Music Player built using HTML, CSS, and JavaScript.
 
 ## 🛠️ Technologies Used
 
-* |HTML|
-* |CSS|
-* |JavaScript|
+* | HTML |
+* | CSS |
+* | JavaScript |
 
 ## ▶️ How to Run
 
