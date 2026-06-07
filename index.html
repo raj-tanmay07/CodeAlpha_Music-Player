@@ -7,32 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
 <div class="player">
-    <h1>Music Player<h1>
 
-        <img src="cover1.jpg"id="cover">
-        <h2 id="title">Song Name</h2>
-        <h3 id="artist">Artist Name</h3>
+    <h1>🎵 Music Player</h1>
 
-        <!--Progress Bar-->
-        <input type="range" id="progress" value="0">
+    <!-- Search -->
+    <input type="text" id="search" placeholder="Search songs...">
 
-         <!-- Controls -->
-  <div class="controls">
-    <button id="prev">⏮️</button>
-    <button id="play">▶️</button>
-    <button id="next">⏭️</button>
-  </div>
+    <!-- Upload -->
+    <input type="file" id="upload" accept=".mp3">
 
-  <!-- Volume -->
-  <div class="volume-container">
-    <label>Volume</label>
-    <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
-  </div>
+    <!-- Cover -->
+   <img src="img/cover1.jpg" id="cover">
 
-  <!-- Playlist -->
-  <ul id="playlist"></ul>
+    <!-- Song Details -->
+    <h2 id="title">Song Name</h2>
+    <h3 id="artist">Artist Name</h3>
+    <h4 id="genre">Genre</h4>
+
+    <!-- Progress Bar -->
+    <input type="range" id="progress" value="0">
+
+    <!-- Time -->
+    <div class="time">
+        <span id="current-time">00:00</span>
+        /
+        <span id="duration">00:00</span>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭️</button>
+    </div>
+
+    <!-- Volume -->
+    <div class="volume-container">
+        <label>🔊 Volume</label>
+        <input type="range" id="volume"
+               min="0"
+               max="1"
+               step="0.1"
+               value="1">
+    </div>
+
+    <!-- Playlist -->
+    <ul id="playlist"></ul>
 
 </div>
 
