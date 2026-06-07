@@ -16,8 +16,8 @@ A modern and responsive web-based Music Player built using **HTML, CSS, and Java
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
 
 ## ▶️ How to Run
